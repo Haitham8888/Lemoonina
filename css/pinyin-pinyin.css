@@ -1,0 +1,10 @@
+*{margin:0px;padding:0px;font-family:Times New Roman;}
+.pinyinchart{border-collapse:collapse;width:1900px;margin:20px 10px;background:#EEF7FF;}
+.pinyinchart td{border:solid thin #CDCDCD;text-align:center;height:26px;line-height:24px;}
+
+.click li{position:relative;z-index:5;list-style:none;width:46px;height:26px;}
+.click li:hover ul{display:block;}
+.click li.current ul{display:block;}
+.clickpop{display:none; position:absolute; bottom:33px; width:97px;height:102px;box-shadow:#d9d9d9 0px 1px 1px 1px;text-align:left;background:#FFFFFF;padding-top:4px;}
+.clickpop p{padding-left:10px;}
+.bottom-line{width:95px; height:15px;background:url(../images/pinyin-borderbottom.png) no-repeat top left;}
